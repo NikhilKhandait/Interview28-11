@@ -3,11 +3,13 @@ package practiceString;
 public class ReverseString {
 
 	public static void main(String[] args) {
-		
-		String st = "thenameisyash";
-		
-		for(int i = st.length()-1 ; i >= 0; i-- ) {
-			System.out.print(st.charAt(i));
-		}
+	
+		String str = "nikhil kumar";
+
+			 for(int j = str.length()-1; j >= 0; j--) {
+				System.out.print(str.charAt(j));
+				
+			 } //System.out.print(" ");
+		 }
 	}
-}
+

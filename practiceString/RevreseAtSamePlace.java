@@ -12,7 +12,7 @@ public class RevreseAtSamePlace {
 			
 			for(int j = arr[i].length()-1; j >= 0; j--) {
 				System.out.print(arr[i].charAt(j));
-			}System.out.println(" ");
+			}System.out.print(" ");
 		}
 	}
 }

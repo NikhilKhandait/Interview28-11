@@ -1,6 +1,6 @@
 package practiceString;
 
-public class CountAccuranceOfArray {
+public class CountAccuranceOfStringArray {
 
 	public static void main(String[] args) {
 		

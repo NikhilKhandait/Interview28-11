@@ -34,7 +34,7 @@ public class StringAllMethod {
 		System.out.println("string start with = " + st.startsWith("n"));
 
 		/*
-		 * cheak if string endWith Ex.- l / Rembar that its return boolean value like
+		 * cheak if string endWith Ex.- l / Remambar that its return boolean value like
 		 * T/F
 		 */
 

@@ -1,4 +1,4 @@
-package practiceString;
+package practical_String;
 
 public class StringAllMethod {
 
@@ -7,7 +7,6 @@ public class StringAllMethod {
 		String st = "nikhil khandait";
 
 		String st2 = "NIKHIL kumar";
-		
 
 		/* print length of string */
 		System.out.println("length is = " + st.length());
@@ -41,19 +40,21 @@ public class StringAllMethod {
 		System.out.println("String end with = " + st.endsWith("l"));
 
 		/* print substring means remove character after and before the instruction */
-		System.out.println("Substring of = "+ st.substring(9));
-		
+		System.out.println("Substring of = " + st.substring(7));
+
 		/* concate a tow string means conect to value in a string */
-		System.out.println("concate of a string is = "+ st.concat(st2));
-		
+		System.out.println("concate of a string is = " + st.concat(st2));
+
 		/* trim a space for in string */
 		System.out.println("trimmed string is: " + st2.trim());
-		
-		String[] s = st2.split("");
-		for(String a : s) {
-			System.out.print("split:" + a );
-		}
-			
-			
+
+		/*
+		 * String[] s = st2.split(""); for(String a : s) { System.out.print("split:" + a
+		 * );
+		 */
+
+		/* one other exapme of sub string 2 parameter */
+		System.out.println(st.substring(2, 7));
 	}
+
 }

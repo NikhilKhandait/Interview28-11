@@ -1,4 +1,4 @@
-package practiceString;
+package practical_String;
 
 public class CountAccuranceOfString {
 

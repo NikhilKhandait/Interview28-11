@@ -1,4 +1,4 @@
-package practiceString;
+package practical_String;
 
 public class VowelCount {
 
@@ -7,7 +7,7 @@ public class VowelCount {
 		String st = "aijokoebubwujias";
 		char[] chr = st.toCharArray();
 
-		for (char ch = 'a'; ch < 'z'; ch++) {
+		for (char ch = 'a'; ch <= 'z'; ch++) {
 			int count = 0;
 
 			for (int i = 0; i < chr.length; i++) {

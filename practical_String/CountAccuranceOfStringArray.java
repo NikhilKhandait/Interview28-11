@@ -1,4 +1,4 @@
-package practiceString;
+package practical_String;
 
 public class CountAccuranceOfStringArray {
 
@@ -6,8 +6,8 @@ public class CountAccuranceOfStringArray {
 		
 		/* Spacific string ke array ki value count karne k liye */
 		
-		String[] name = { "abhinav", "singh" };
-		for (char ch = 'a'; ch < 'z'; ch++) {
+		String[] name = { "abhinzav", "singh" };
+		for (char ch = 'a'; ch <= 'z'; ch++) {
 			int count = 0;
 			for (String n : name)
 				for (int i = 0; i < n.length(); i++) {

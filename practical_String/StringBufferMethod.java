@@ -1,10 +1,11 @@
-package practiceString;
+package practical_String;
 
 public class StringBufferMethod {
 
 	public static void main(String[] args) {
 
 		StringBuffer sb = new StringBuffer("Nikhil");
+		StringBuffer sb1 = new StringBuffer("Nikhil");
 
 		/* Expalin append Method */
 		sb.append("Khandait");
@@ -26,6 +27,9 @@ public class StringBufferMethod {
 
 		/* reverse a string */
 		System.out.println("reverse string = " + sb.reverse());
+		
+		/* insert a string */
+		System.out.println("insert string : " + sb1.insert(6, "khandait"));
 	}
 
 }

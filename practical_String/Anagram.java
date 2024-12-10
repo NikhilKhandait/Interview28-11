@@ -1,4 +1,4 @@
-package practiceString;
+package practical_String;
 
 import java.util.Arrays;
 

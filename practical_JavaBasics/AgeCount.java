@@ -7,9 +7,9 @@ public class AgeCount {
 
 	public static void main(String[] args) {
 
-		LocalDate ldate = LocalDate.now();
-		LocalDate ldate2 = ldate.of(2001, 10, 8);
-		Period p = Period.between(ldate2, ldate);
+		LocalDate lDate = LocalDate.now();
+		LocalDate lDate2 = LocalDate.of(2001, 10, 8);
+		Period p = Period.between(lDate2, lDate);
 
 		System.out.println(p.getYears());
 
